@@ -50,11 +50,42 @@ const user = [
 ]
 
 user[1].email
-console.log(tinderuser);
+// console.log(tinderuser);
 
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
 
-console.log(Object.entries(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty('location'));
+// console.log(tinderuser.hasOwnProperty('location'));
+
+
+// Object de-structure
+
+const course = {
+    coursename : "coding",
+    price : "999",
+    courseInstructor : "preet"
+}
+
+// course.courseInstructor
+
+const {courseInstructor : instructor} = course  // this is called object de-structure means - {}.
+
+// console.log(instructor); 
+
+// when JSON call APIs
+
+// 1st form
+// {
+//     "name" : "preet"
+//     "address" : "Bhopal"
+// }
+
+// 2 form
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
